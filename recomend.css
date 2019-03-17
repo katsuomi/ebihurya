@@ -1,0 +1,41 @@
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.parent {
+    /*親要素はrelativeに*/
+    position: relative;
+    padding: 20px;
+}
+.logo {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+.back_button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.go_button {
+    position: absolute;
+    top: 75%;
+    right: 5%;
+}
+
+.flex_test-box {
+    display: flex;              /* フレックスボックスにする */
+}
+ 
+.flex_test-item {
+    padding: 10px;
+    color:  #fff;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+}
+ 

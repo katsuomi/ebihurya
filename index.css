@@ -1,0 +1,128 @@
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.parent {
+    /*親要素はrelativeに*/
+    position: relative;
+    padding: 20px;
+}
+.logo {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+.back_button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.go_button {
+    position: absolute;
+    top: 75%;
+    right: 5%;
+}
+
+.button img{
+    float: left;
+    list-style: none;
+    margin: 6px;
+    width: auto;
+    height:160px;
+
+}
+
+
+#container {
+    width: 500px;
+    margin: auto !important;
+    display: block;
+    height: 500px;
+    position: relative;
+    list-style-type: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.buddy {
+    display: none;
+    color: #fff;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 20%;
+    left: -4%;
+    position: absolute;
+    cursor: hand;
+}
+.rotate-left {
+    transform: rotate(30deg) scale(0.8);
+    transition: 1.5s;
+    margin-left: 400px;
+    cursor: e-resize;
+    opacity: 0;
+    z-index: 10;
+}
+.rotate-right {
+    transform: rotate(-30deg) scale(0.8);
+    transition: 1.5s;
+    opacity: 0;
+    margin-left: -400px;
+    cursor: w-resize;
+    z-index: 10;
+}
+
+.rotate-top {
+    transform: rotate(-30deg) scale(0.8);
+    transition: 1.5s;
+    opacity: 0;
+    margin-top: -400px;
+    cursor: w-resize;
+    z-index: 10;
+}
+
+
+
+.avatar {
+    border-radius: 5px;
+    background: #222;
+    width: 340px;
+    height: 340px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: auto 160% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.like {
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    text-shadow: none;
+}
+.unlike {
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    text-shadow: none;
+}
+.superlike {
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    text-shadow: none;
+}
+
